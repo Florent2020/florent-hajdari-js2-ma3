@@ -46,7 +46,6 @@ async function doLogin(username, password) {
         if (json.user) {
 
             saveToken(json.jwt);
-            saveUser(json.user);
 
             location.href = "/";
         }
