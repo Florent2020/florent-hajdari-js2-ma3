@@ -1,0 +1,1 @@
+export const strapiApi = "http://localhost:1337/";
